@@ -30,7 +30,7 @@ export default class Jokes extends Component {
 				<h1>{this.state.joke.setup}</h1>
 				<h3>{this.state.joke.punchline}</h3>
 				<button type='button' onClick={() =>this.refreshPage()}>
-					Show me a new joke
+					Show a new joke
 				</button>
 			</div>
 		);
